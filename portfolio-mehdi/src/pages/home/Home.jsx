@@ -1,4 +1,5 @@
 import React from "react";
+import Burger from "../../components/burgerButton/Burger";
 
 
 function Home() {
@@ -6,6 +7,7 @@ function Home() {
     return (
     <div>
         <h1>Hello world!</h1>
+        <Burger/>
     </div>
     );
 
